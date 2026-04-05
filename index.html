@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stamp Memo</title>
+  <meta name="description" content="Placeholder description for Stamp Memo. Replace this with a short pitch for your app.">
+  <meta property="og:title" content="Stamp Memo">
+  <meta property="og:description" content="Placeholder description for Stamp Memo.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <img src="assets/logo.png" alt="Stamp Memo logo" class="logo">
+      <h1>Stamp Memo - Digital Stamp Puncher</h1>
+      <p class="tagline">Transform your photos into unique stamp-style art.</p>
+
+      <div class="cta">
+        <a class="appstore-badge" href="https://apps.apple.com/app/id6754986631" target="_blank" rel="noopener" aria-label="Download on the App Store">
+          <img src="assets/app-store-badge.svg" alt="Download on the App Store" height="44" loading="lazy" width="auto">
+        </a>
+      </div>
+
+      <nav class="legal-links">
+        <a class="link-btn" href="privacy.html">Privacy Policy</a>
+        <a class="link-btn" href="terms.html">Terms of Use</a>
+        <a class="link-btn" href="support.html">Support</a>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Stamp Memo</p>
+    <div class="legal-note">App Store is a service mark of Apple Inc., registered in the U.S. and other countries.</div>
+</footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
