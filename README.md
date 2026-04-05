@@ -1,1 +1,1 @@
-# stampmemo2026.github.io
+Stamp Memo Landing
